@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h1 class="logo">Adrian X</h1>
+            <ul>
+                <li><a href="#jasa">jasa</a></li>
+                <li><a href="mailto:adriannatalegawa1@gmail.com">Contact</a></li>
+            </ul>
+            <button class="btn" onclick="redirInstagram()">Follow saya</button>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="intro">
+            <p class="title">Hello, Saya Adrian Natalegawa</p>
+            <p class="deskripsi">Technology Influencer from village</p>
+            <img src="assets/photos/adrian.jpg" alt="adrian photo" class="img-photo">
+        </div>
+    </div>
+
+    <div class="parallax">
+        <div class="tentang">
+            <p class="title">Im programmer</p>
+            <p class="deskripsi">Ngoding aja dulu, jagonya belakangan</p>
+            <button class="btn-work" onclick="redirWhatsapp()">Lets Work together</button>
+        </div>
+        <div class="container">
+        <div class="card" id="jasa">
+            <div class="card-item">
+                <img src="assets/icon/24-hours.png" alt="" class="icon">
+                <p class="title">Saya suka nongkrong</p>
+                <p class="deskripsi-nongs">nongkrong adalah sumber inspirasi dan jalan terbaik mencari ide</p>
+            </div>
+            <div class="card-item">
+                <img src="assets/icon/hot-deal.png" alt="" class="icon">
+                <p class="title">Saya suka nongkrong</p>
+                <p class="deskripsi-nongs">nongkrong adalah sumber inspirasi dan jalan terbaik mencari ide</p>
+            </div>
+            <div class="card-item">
+                <img src="assets/icon/rating.png" alt="" class="icon">
+                <p class="title">Saya suka nongkrong</p>
+                <p class="deskripsi-nongs">nongkrong adalah sumber inspirasi dan jalan terbaik mencari ide</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <footer>
+        <p>&copy; Adrian natalegawa 2023</p>
+    </footer>
+    
+    <script>
+        function redirInstagram() {
+            window.location.href = "https://instagram.com/adrian_natalegawa";
+        }
+
+        function redirWhatsapp() {
+            window.location.href = "https://wa.me/+6281574332550";
+        }
+        </script>
+</body>
+</html>
